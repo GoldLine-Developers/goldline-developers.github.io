@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tiltix — Terms of Service</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #12141c;
+    --panel: #1a1d29;
+    --panel-line: #2a2e3d;
+    --text: #f2f0ea;
+    --muted: #9a9bae;
+    --coral: #ff6b5b;
+    --gold: #ffc145;
+    --mint: #2fe6b4;
+    --violet: #8c7cff;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, sans-serif;
+    line-height: 1.65;
+    font-size: 16px;
+  }
+
+  a { color: var(--mint); text-decoration-color: rgba(47,230,180,0.4); text-underline-offset: 3px; }
+  a:hover { text-decoration-color: var(--mint); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+  .topnav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px 24px 0;
+  }
+
+  .topnav a {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: var(--muted);
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: 1px solid var(--panel-line);
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .topnav a.active {
+    color: var(--bg);
+    background: var(--violet);
+    border-color: var(--violet);
+  }
+
+  .topnav a:not(.active):hover { color: var(--text); border-color: var(--muted); }
+
+  .hero {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 40px;
+    text-align: center;
+  }
+
+  .stack {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 28px;
+  }
+
+  .stack .block {
+    height: 16px;
+    border-radius: 5px;
+  }
+
+  .stack .b1 { width: 92px; background: var(--violet); }
+  .stack .b2 { width: 78px; background: var(--mint); transform: translateX(-6px); }
+  .stack .b3 { width: 64px; background: var(--gold); transform: translateX(8px); }
+  .stack .b4 { width: 46px; background: var(--coral); transform: translateX(-10px) rotate(3deg); }
+
+  h1.wordmark {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2.2rem, 6vw, 3rem);
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .doc-title {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 1.1rem;
+    margin: 0 0 18px;
+  }
+
+  .meta-line {
+    display: inline-flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 24px 100px;
+  }
+
+  section { margin-top: 44px; }
+
+  .marker {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    margin-right: 10px;
+    transform: translateY(1px);
+  }
+
+  h2 {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    margin: 0 0 14px;
+  }
+
+  section:nth-of-type(4n+1) h2 .marker { background: var(--violet); }
+  section:nth-of-type(4n+2) h2 .marker { background: var(--mint); }
+  section:nth-of-type(4n+3) h2 .marker { background: var(--gold); }
+  section:nth-of-type(4n+4) h2 .marker { background: var(--coral); }
+
+  p, li { color: #d9d8e2; max-width: 62ch; }
+
+  ul { padding-left: 22px; margin: 10px 0; }
+  li { margin-bottom: 8px; }
+
+  .callout {
+    background: var(--panel);
+    border: 1px solid var(--panel-line);
+    border-left: 3px solid var(--violet);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-top: 16px;
+    font-size: 0.95rem;
+    color: #cfd0dc;
+  }
+
+  .callout strong { color: var(--text); }
+
+  footer {
+    border-top: 1px solid var(--panel-line);
+    text-align: center;
+    padding: 32px 24px 48px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  footer .brand {
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+
+  <nav class="topnav">
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms-of-service.html" class="active">Terms of Service</a>
+  </nav>
+
+  <div class="hero">
+    <div class="stack">
+      <div class="block b1"></div>
+      <div class="block b2"></div>
+      <div class="block b3"></div>
+      <div class="block b4"></div>
+    </div>
+    <h1 class="wordmark">Tiltix</h1>
+    <p class="doc-title">Terms of Service</p>
+    <div class="meta-line">
+      <span>Effective date: [Sep 27, 2026]</span>
+      <span>·</span>
+      <span>By GoldLine Studios</span>
+    </div>
+  </div>
+
+  <main>
+
+    <section>
+      <h2><span class="marker"></span>Agreement to terms</h2>
+      <p>By downloading, installing, or playing Tiltix ("the game"), you agree to these Terms of Service. If you don't agree, please don't use the game. Tiltix is developed by GoldLine Studios and published under the GoldLine Developers account on Google Play. Tiltix is intended for players aged 13 and older.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>License to use the game</h2>
+      <p>We grant you a personal, non-exclusive, non-transferable, revocable license to install and play Tiltix on devices you own or control, for personal, non-commercial entertainment purposes only.</p>
+      <p>You may not:</p>
+      <ul>
+        <li>Copy, modify, reverse-engineer, or redistribute the game or any part of it</li>
+        <li>Use the game for any unlawful purpose</li>
+        <li>Attempt to interfere with the game's ads, in-app purchase system, or normal operation</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Ads and purchases</h2>
+      <p>Tiltix is free to play and supported by advertising through Google AdMob. Some versions of the game may offer optional in-app purchases (such as removing ads or unlocking cosmetic content) through Google Play's billing system. All purchases are final and subject to Google Play's own refund policies, which we don't control.</p>
+      <div class="callout">
+        <strong>No real-money gambling:</strong> any in-game currency, scores, or unlockable content have no real-world monetary value and cannot be exchanged for cash.
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Your content and data</h2>
+      <p>Tiltix stores your scores and settings locally on your device only. We don't host player accounts or a central database, so we can't recover your progress if you uninstall the game or switch devices, unless a future update adds optional cloud sync — which, if introduced, will be covered under an updated version of these terms.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Intellectual property</h2>
+      <p>Tiltix, including its name, design, artwork, and code, is the property of GoldLine Studios / GoldLine Developers. All rights not expressly granted to you under this license are reserved.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Disclaimer and limitation of liability</h2>
+      <p>Tiltix is provided "as is," without warranties of any kind, express or implied. We don't guarantee the game will be uninterrupted, error-free, or compatible with every device. To the fullest extent permitted by law, GoldLine Studios and GoldLine Developers are not liable for any indirect, incidental, or consequential damages arising from your use of the game.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Changes to the game or these terms</h2>
+      <p>We may update Tiltix (new features, modes, or fixes) and these Terms of Service from time to time. Continued use of the game after an update means you accept the revised terms.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Governing law</h2>
+      <p>These terms are governed by the laws of India, without regard to conflict-of-law principles.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Contact us</h2>
+      <p>Questions about these terms? Reach us at <a href="mailto:[getgoldline@gmail.com]">[getgoldline@gmail.com]</a>.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><span class="brand">Tiltix</span> — developed by GoldLine Studios, published by GoldLine Developers.</p>
+  </footer>
+
+</body>
+</html>
