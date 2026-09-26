@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tiltix — Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #12141c;
+    --panel: #1a1d29;
+    --panel-line: #2a2e3d;
+    --text: #f2f0ea;
+    --muted: #9a9bae;
+    --coral: #ff6b5b;
+    --gold: #ffc145;
+    --mint: #2fe6b4;
+    --violet: #8c7cff;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', -apple-system, sans-serif;
+    line-height: 1.65;
+    font-size: 16px;
+  }
+
+  a { color: var(--mint); text-decoration-color: rgba(47,230,180,0.4); text-underline-offset: 3px; }
+  a:hover { text-decoration-color: var(--mint); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+  .topnav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px 24px 0;
+  }
+
+  .topnav a {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 600;
+    font-size: 0.92rem;
+    color: var(--muted);
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: 1px solid var(--panel-line);
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .topnav a.active {
+    color: var(--bg);
+    background: var(--mint);
+    border-color: var(--mint);
+  }
+
+  .topnav a:not(.active):hover { color: var(--text); border-color: var(--muted); }
+
+  .hero {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 40px;
+    text-align: center;
+  }
+
+  .stack {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 28px;
+  }
+
+  .stack .block {
+    height: 16px;
+    border-radius: 5px;
+  }
+
+  .stack .b1 { width: 92px; background: var(--coral); }
+  .stack .b2 { width: 78px; background: var(--gold); transform: translateX(6px); }
+  .stack .b3 { width: 64px; background: var(--mint); transform: translateX(-8px); }
+  .stack .b4 { width: 46px; background: var(--violet); transform: translateX(10px) rotate(-3deg); }
+
+  h1.wordmark {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2.2rem, 6vw, 3rem);
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .doc-title {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 1.1rem;
+    margin: 0 0 18px;
+  }
+
+  .meta-line {
+    display: inline-flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 24px 100px;
+  }
+
+  section { margin-top: 44px; }
+
+  .marker {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 4px;
+    margin-right: 10px;
+    transform: translateY(1px);
+  }
+
+  h2 {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    margin: 0 0 14px;
+  }
+
+  section:nth-of-type(4n+1) h2 .marker { background: var(--coral); }
+  section:nth-of-type(4n+2) h2 .marker { background: var(--gold); }
+  section:nth-of-type(4n+3) h2 .marker { background: var(--mint); }
+  section:nth-of-type(4n+4) h2 .marker { background: var(--violet); }
+
+  p, li { color: #d9d8e2; max-width: 62ch; }
+
+  ul { padding-left: 22px; margin: 10px 0; }
+  li { margin-bottom: 8px; }
+
+  .callout {
+    background: var(--panel);
+    border: 1px solid var(--panel-line);
+    border-left: 3px solid var(--mint);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-top: 16px;
+    font-size: 0.95rem;
+    color: #cfd0dc;
+  }
+
+  .callout strong { color: var(--text); }
+
+  footer {
+    border-top: 1px solid var(--panel-line);
+    text-align: center;
+    padding: 32px 24px 48px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  footer .brand {
+    font-family: 'Baloo 2', sans-serif;
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+
+  <nav class="topnav">
+    <a href="privacy-policy.html" class="active">Privacy Policy</a>
+    <a href="terms-of-service.html">Terms of Service</a>
+  </nav>
+
+  <div class="hero">
+    <div class="stack">
+      <div class="block b1"></div>
+      <div class="block b2"></div>
+      <div class="block b3"></div>
+      <div class="block b4"></div>
+    </div>
+    <h1 class="wordmark">Tiltix</h1>
+    <p class="doc-title">Privacy Policy</p>
+    <div class="meta-line">
+      <span>Effective date: [Month Day, Year]</span>
+      <span>·</span>
+      <span>By GoldLine Studios</span>
+    </div>
+  </div>
+
+  <main>
+
+    <section>
+      <h2><span class="marker"></span>What this covers</h2>
+      <p>This policy explains what information Tiltix collects, how it's used, and the choices you have. Tiltix is built to run entirely on your device — there's no account to create and no personal profile stored anywhere but your phone.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Information we don't collect</h2>
+      <p>Tiltix does not require sign-up, does not ask for your name, email, or phone number, and does not operate any server or cloud database of its own. Your gameplay data — high scores, settings, and progress — is stored locally on your device using local storage (Hive) and is never transmitted to us.</p>
+      <div class="callout">
+        <strong>In short:</strong> we don't have a database of players, because we don't run one.
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Information collected automatically</h2>
+      <p>Tiltix displays ads through Google AdMob to keep the game free to play. To do this, Google's AdMob SDK may automatically collect certain information from your device, including:</p>
+      <ul>
+        <li>Advertising identifier (such as your Android Advertising ID)</li>
+        <li>Device information (device model, operating system version)</li>
+        <li>Approximate location (derived from IP address, not precise GPS)</li>
+        <li>App usage data related to ad requests and interactions</li>
+      </ul>
+      <p>This information is collected and processed by Google, not stored by us. It's used to serve and measure ads, and in some cases to personalize which ads you see.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Third-party services</h2>
+      <p>Tiltix uses the following third-party service:</p>
+      <ul>
+        <li><strong>Google AdMob</strong> — for displaying advertisements. Google's own privacy policy governs how it handles this data: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</li>
+      </ul>
+      <p>If a future update adds Google Play Games Services (for optional leaderboards), this policy will be updated to reflect it before that feature is released, and using it will remain entirely optional.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Your choices</h2>
+      <p>You can limit ad personalization at any time through your device settings:</p>
+      <ul>
+        <li><strong>Android:</strong> Settings → Google → Ads → Opt out of Ads Personalization, or reset your advertising ID from the same screen.</li>
+      </ul>
+      <p>If you're located in the European Economic Area, the UK, or Switzerland, Tiltix will show a consent screen the first time you open the app, letting you choose whether to allow personalized ads. You can change this choice at any time by clearing the app's data or reinstalling it.</p>
+      <p>Uninstalling Tiltix removes all locally stored game data (scores, settings) from your device, since nothing is backed up elsewhere.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Children's privacy</h2>
+      <p>Tiltix is intended for a general audience aged 13 and older and is not designed for or directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Changes to this policy</h2>
+      <p>We may update this policy as Tiltix evolves — for example, if a future version adds optional online features. Material changes will be reflected here with an updated effective date.</p>
+    </section>
+
+    <section>
+      <h2><span class="marker"></span>Contact us</h2>
+      <p>Questions about this policy? Reach us at <a href="mailto:[your-email@example.com]">[your-email@example.com]</a>.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><span class="brand">Tiltix</span> — developed by GoldLine Studios, published by GoldLine Developers.</p>
+  </footer>
+
+</body>
+</html>
