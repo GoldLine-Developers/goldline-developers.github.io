@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiltix — Image Disclaimer</title>
+<style>
+  :root {
+    --bg: #0e1420; --card: #161e2d; --text: #dfe6f2; --muted: #93a0b5;
+    --accent: #5fd0e6; --gold: #e8c46a; --line: #26324a;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f4f6fa; --card: #ffffff; --text: #1b2433; --muted: #5d6b82;
+            --accent: #0b7f95; --gold: #8a6a12; --line: #dde3ee; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 20px 16px 48px; }
+  nav { display: flex; flex-wrap: wrap; gap: 14px; font-size: 14px; margin-bottom: 18px; }
+  nav a { color: var(--accent); text-decoration: none; }
+  nav a:hover { text-decoration: underline; }
+  nav a.current { color: var(--muted); pointer-events: none; }
+  h1 { margin: 0 0 4px; font-size: 30px; letter-spacing: .02em; }
+  h1 span { color: var(--gold); }
+  .sub { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+  h2 { font-size: 19px; margin: 28px 0 8px; color: var(--accent); }
+  p, li { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  .callout { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--gold);
+             border-radius: 8px; padding: 14px 16px; margin: 18px 0; }
+  .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+  #lm-status { color: var(--muted); font-size: 14px; margin: 8px 0; }
+  footer { margin-top: 36px; padding-top: 14px; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: 13px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Service</a>
+  <a class="current" href="image-disclaimer.html">Image Disclaimer</a>
+</nav>
+
+<h1>Tilt<span>ix</span></h1>
+<div class="sub">Image Disclaimer · Effective [Nov 2, 2026] · By GoldLine Studios</div>
+
+<div class="callout">
+  The landmark images in Tiltix are <strong>AI-generated artistic illustrations</strong>.
+  They are not photographs or original artworks of the real places. Tiltix gives no licence or
+  permission for any use of them, and any use is entirely at your own risk.
+</div>
+
+<h2>1. What these images are</h2>
+<p>The landmark pictures shown in Tiltix, including the gallery and the images that can be saved with
+Tiltix Pro, are artistic illustrations created with the help of artificial intelligence for use inside the game.
+They are not photographs, official pictures or original works of art of the real places.</p>
+
+<h2>2. Accuracy</h2>
+<p>Because the images are AI-generated and artistic, they may differ from the real places in structure,
+shape, colour, proportions, height, surroundings, text, lighting and other details, and may contain small
+mistakes. Heights and other facts shown in the game are for play and general interest only. Do not treat
+any image or figure as an accurate picture or reference of a real place.</p>
+
+<h2>3. No rights and no licence</h2>
+<p>GoldLine Developers and GoldLine Studios do not own the rights to the real places, buildings, monuments,
+natural features, names or marks that the images depict, and these images are not endorsed by, connected
+with or approved by their owners, managers or authorities. We do not give any licence, permission, warranty
+or assurance about any use of these images, whether personal, social or commercial. Every image is provided
+&ldquo;as is&rdquo;.</p>
+
+<h2>4. Your use is at your own risk</h2>
+<p>If you save, download, screenshot, share, publish, print or otherwise use any landmark image from Tiltix,
+for personal, social or commercial purposes, you do so entirely at your own risk and responsibility.
+You are responsible for checking whether your use is allowed where you live and for the way you use an image.</p>
+<p>GoldLine Developers and GoldLine Studios are not responsible for anything that happens outside the game,
+including any claim, loss, damage, complaint or dispute that arises from your use of an image. By tapping
+&ldquo;Accept and save&rdquo; in the game, or by otherwise using an image, you accept this Image Disclaimer
+and the <a href="terms.html">Terms of Service</a>.</p>
+
+<h2>5. Changes and removal</h2>
+<p>We may change, replace or remove any image, and the option to download any image, at any time and
+without notice, for example after a rights, accuracy, safety or quality concern, or to comply with a request.
+The availability of an image or of the download option for it is not guaranteed, including for Tiltix Pro
+players.</p>
+
+<h2>6. Our own artwork</h2>
+<p>All other artwork in Tiltix, including fictional images, block styles, backgrounds, icons, logos and
+designs, belongs to GoldLine Developers and GoldLine Studios. You may not copy, modify, sell, use
+commercially, or use it in a disrespectful, offensive, hateful or misleading way. Using the game does not
+transfer any rights in this artwork to you.</p>
+
+<h2>7. Screenshots and recordings</h2>
+<p>Screenshots, videos and other captures of the game, including of the landmark images, are covered by this
+Image Disclaimer in the same way as saved images. Your use of them is at your own risk, and our own artwork
+in them stays subject to section 6.</p>
+
+<h2>8. Concerns and removal requests</h2>
+<p>If you are the owner or representative of a place shown in Tiltix, or you believe an image is inaccurate
+or should not be shown, please tell us at
+<a href="mailto:getgoldline@gmail.com">getgoldline@gmail.com</a> and we will look into it promptly.</p>
+
+<h2>9. Landmark list</h2>
+<p>The table below lists the landmarks shown in the game. Every landmark image is an AI-generated artistic
+illustration, and the general notes above apply to each of them. A specific note is added where a known
+difference exists.</p>
+<div id="lm-status">Loading the landmark list…</div>
+<div class="table-wrap" id="lm-wrap" hidden>
+  <table>
+    <thead><tr><th>#</th><th>Landmark</th><th>Place / zone</th><th>Height</th><th>Note</th></tr></thead>
+    <tbody id="lm-body"></tbody>
+  </table>
+</div>
+<noscript><p>The landmark list needs JavaScript. All landmark images in Tiltix are AI-generated artistic
+illustrations that may differ from the real places.</p></noscript>
+
+<footer>Tiltix — developed by GoldLine Studios, published by GoldLine Developers.</footer>
+</div>
+
+<script>
+/* Reads landmarks.csv (same folder). Columns, in any order, header names:
+   name, zone, height (metres), imageNote (optional). Extra columns are ignored. */
+(function () {
+  var GENERIC = 'AI illustration. May differ from the real place.';
+  var status = document.getElementById('lm-status');
+  var wrap = document.getElementById('lm-wrap');
+  var body = document.getElementById('lm-body');
+
+  function parseCsv(text) {
+    var rows = [], row = [], cell = '', q = false;
+    for (var i = 0; i < text.length; i++) {
+      var c = text[i];
+      if (q) {
+        if (c === '"') { if (text[i + 1] === '"') { cell += '"'; i++; } else { q = false; } }
+        else cell += c;
+      } else if (c === '"') q = true;
+      else if (c === ',') { row.push(cell); cell = ''; }
+      else if (c === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
+      else if (c !== '\r') cell += c;
+    }
+    if (cell.length || row.length) { row.push(cell); rows.push(row); }
+    return rows.filter(function (r) { return r.join('').trim().length; });
+  }
+  function col(header, names) {
+    for (var i = 0; i < header.length; i++) {
+      var h = header[i].toLowerCase().replace(/[^a-z]/g, '');
+      for (var j = 0; j < names.length; j++) if (h.indexOf(names[j]) === 0) return i;
+    }
+    return -1;
+  }
+  function td(text) { var e = document.createElement('td'); e.textContent = text; return e; }
+  function fmtHeight(v) {
+    var n = parseFloat(v);
+    if (isNaN(n)) return v || '';
+    if (n >= 1000) return (Math.round(n / 100) / 10).toLocaleString() + ' km';
+    return (Math.round(n * 10) / 10).toLocaleString() + ' m';
+  }
+
+  fetch('landmarks.csv', { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+    .then(function (t) {
+      var rows = parseCsv(t);
+      if (rows.length < 2) throw new Error('empty');
+      var h = rows[0];
+      var iName = col(h, ['name']), iZone = col(h, ['zone', 'location', 'place']),
+          iH = col(h, ['height']), iNote = col(h, ['imagenote', 'note']);
+      if (iName < 0) throw new Error('no name column');
+      for (var k = 1; k < rows.length; k++) {
+        var r = rows[k], tr = document.createElement('tr');
+        tr.appendChild(td(String(k)));
+        tr.appendChild(td(r[iName] || ''));
+        tr.appendChild(td(iZone >= 0 ? r[iZone] || '' : ''));
+        tr.appendChild(td(iH >= 0 ? fmtHeight(r[iH]) : ''));
+        tr.appendChild(td((iNote >= 0 && (r[iNote] || '').trim()) || GENERIC));
+        body.appendChild(tr);
+      }
+      status.hidden = true; wrap.hidden = false;
+    })
+    .catch(function () {
+      status.textContent = 'The landmark list could not be loaded right now. All landmark images in Tiltix are AI-generated artistic illustrations that may differ from the real places.';
+    });
+})();
+</script>
+</body>
+</html>
